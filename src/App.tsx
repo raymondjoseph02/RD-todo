@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-200 to-red-200 ">
       <div
-        className="w-[600px] bg-white flex flex-col items-center gap-4
+        className=" w-[90%] md:w-[600px] bg-white flex flex-col items-center gap-4
       p-6 rounded-lg"
       >
         <div className="flex flex-col items-center">
@@ -42,7 +42,7 @@ function App() {
             {" "}
             Todo List App
           </h1>
-          <p className="text-[0.925rem]">
+          <p className="text-[0.925rem] text-center">
             create your task(s) and{" "}
             <span className="text-red-500">
               <Typewriter
